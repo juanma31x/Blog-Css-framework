@@ -1,0 +1,19 @@
+/*Estilos para contenido Header*/
+.icono img{
+  overflow: hidden;
+  height: 50px;
+  margin-top: -25px;
+}
+
+button img{
+  overflow: hidden;
+  height: 50px;
+  float: right;
+}
+
+.btn-group {
+  float: right;
+}
+.btn-group button{
+  border-width: 0px!important;
+}
