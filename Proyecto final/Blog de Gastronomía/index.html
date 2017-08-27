@@ -9,36 +9,38 @@
     <title>Gastronomía</title>
   </head>
   <body>
+    <div class="row">
+      <div class="column container">
       <div class="row">
-        <div class="small-6 columns">
+        <div class="small-12 large-6 columns ">
           <div class="row">
-            <div class="small-6 columns">
+            <div class="large-6 small-12 columns">
               <h2>Blog de Gastronomía</h2>
             </div>
           </div>
-          <div class="row align-right">
-            <div class="small-2 column">
-              <h5>slogan</h5>
+          <div class="row">
+            <div class="small-12 column large-6 large-offset-2">
+              <h5>Blog donde aprenderas a cocinar</h5>
             </div>
           </div>
         </div> <!--column de 6-->
       </div><!--Fin row encabezado-->
       <div class="row"> <!--row principal para cuerpo-->
-        <div class="small-6 columns">
+        <div class="small-4 columns hide-for-small-only columna-cuerpo-izq">
           <div class="row collapse">
             <div class="small-10 columns">
               <input type="text" placeholder="Buscar">
             </div>
             <div class="small-2 columns">
-              <a href="#" class="button postfix">Go</a>
+              <a href="#" class="button postfix"><i class="fi-magnifying-glass"></i></a>
             </div>
           </div>
           <div class="row">
             <div class="column small-12">
               <ul class="vertical menu">
-                <li><a href="#" class="button">Inicio</a></li>
-                <li><a href="#" class="button">Mi plato perfecto</a></li>
-                <li><a href="#" class="button">Mis recetas</a></li>
+                <li><a href="#" class="hollow button alert">Inicio</a></li>
+                <li><a href="#" class="hollow button alert">Mi plato perfecto</a></li>
+                <li><a href="#" class="hollow button alert">Mis recetas</a></li>
               </ul>
             </div>
           </div>
@@ -47,24 +49,24 @@
               <h5>Favoritos</h5>
               <div class="row">
                 <div class="small-4 column">
-                  <img src="img/brocheta.jpg" alt="">
+                  <img class="thumbnail" src="img/brocheta.jpg" alt="">
                 </div>
                 <div class="small-4 column">
-                  <img src="img/pizza.jpg" alt="">
+                  <img class="thumbnail"  src="img/arroz-pollo.jpg" alt="">
                 </div>
                 <div class="small-4 column">
-                  <img src="img/hamburguesa.jpg" alt="">
+                  <img class="thumbnail"  src="img/hamburguesa.jpg" alt="">
                 </div>
               </div>
               <div class="row">
                 <div class="small-4 column">
-                  <img src="img/sandwich.jpg" alt="">
+                  <img class="thumbnail" src="img/sandwich.jpg" alt="">
                 </div>
                 <div class="small-4 column">
-                  <img src="img/pollo.jpg" alt="">
+                  <img class="thumbnail" src="img/pollo.jpg" alt="">
                 </div>
                 <div class="small-4 column">
-                  <img src="img/taco.jpg" alt="">
+                  <img class="thumbnail" src="img/pescado.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -82,6 +84,94 @@
             </div>
           </div>
         </div> <!--fin column 1-->
-      </div>
+          <div class="large-7 small-12 column columna-cuerpo-der ">
+            <div class="row">
+              <div class="small-12 column">
+                <h2>Tacos Caseros</h2>
+                <h6>22 de Agosto del 2017</h6>
+                <img src="img/taco.jpg" alt="Imagen pescado">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <label>Escribe un comentario
+                  <textarea style="resize:none;"></textarea>
+                  <a href="#" class="button">Ingresar <i class="fi-pencil"></i></a>
+                </label>
+                <div class="comentarios">
+                    <div class="row">
+                      <div class="column small-2">
+                        <img src="img/usuario.png" alt="imagen usuario">
+                      </div>
+                      <div class="column small-10">
+                        <p id="comentario"><strong>Silvia5: </strong>Muy interesante todo.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="comentarios">
+                    <div class="row">
+                      <div class="column small-2">
+                        <img src="img/usuario2.png" alt="imagen usuario">
+                      </div>
+                      <div class="column small-10">
+                        <p id="comentario"><strong>Pedro33: </strong>Muy interesante todo.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="comentarios">
+                    <div class="row">
+                      <div class="column small-2">
+                        <img src="img/usuario2.png" alt="imagen usuario">
+                      </div>
+                      <div class="column small-10">
+                        <p id="comentario"><strong>JuanH31: </strong>Muy interesante todo.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div> <!--primera publicacion-->
+            <div class="row">
+              <div class="small-12 column">
+                <h2>Pizza en horno de leña</h2>
+                <h6>1 de Agosto del 2017</h6>
+                <img src="img/pizza.jpg" alt="imagen pizza">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <label>Escribe un comentario
+                  <textarea style="resize:none;"></textarea>
+                  <a href="#" class="button">Ingresar <i class="fi-pencil"></i></a>
+                </label>
+                <div class="comentarios">
+                    <div class="row">
+                      <div class="column small-2">
+                        <img src="img/usuario.png" alt="imagen usuario">
+                      </div>
+                      <div class="column small-10">
+                        <p id="comentario"><strong>Silvia5: </strong>Muy interesante todo.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="comentarios">
+                    <div class="row">
+                      <div class="column small-2">
+                        <img src="img/usuario2.png" alt="imagen usuario">
+                      </div>
+                      <div class="column small-10">
+                        <p id="comentario"><strong>Pedro33: </strong>Muy interesante todo.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="comentarios">
+                    <div class="row">
+                      <div class="column small-2">
+                        <img src="img/usuario2.png" alt="imagen usuario">
+                      </div>
+                      <div class="column small-10">
+                        <p id="comentario"><strong>JuanH31: </strong>Muy interesante todo.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div> <!--segunda publicacion-->
+          </div>
+        </div>
+      </div> <!-- fin column container principal -->
+    </div> <!-- fin row container principal -->
   </body>
 </html>

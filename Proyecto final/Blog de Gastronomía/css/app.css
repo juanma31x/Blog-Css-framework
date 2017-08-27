@@ -1,0 +1,29 @@
+.comentarios{
+  border: 1px solid gray;
+  margin-top: 10px;
+}
+.usuario img{
+  width: 50px;
+}
+#comentario{
+  margin: 10px;
+}
+
+body{
+  background: url("../img/cocina.jpg")  no-repeat center center fixed;
+}
+.container{
+  background: rgba(102, 140, 255, 0.7);
+}
+.columna-cuerpo-izq{
+  background: rgba(255, 179, 102, 0.7);
+  height: 75%;
+}
+.columna-cuerpo-der{
+  background: rgba(255, 255, 102, 0.7);
+}
+.vertical li a{
+
+  color: rgb(230, 0, 0);
+  text-decoration: underline;
+}
