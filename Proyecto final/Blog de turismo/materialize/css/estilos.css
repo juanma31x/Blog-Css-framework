@@ -1,7 +1,26 @@
 .nav-wrapper img{
-  width: 300px;
-  margin-left: 100px;
+  height: 150px;
+  margin-left: 150px;
 }
-.nav-title{
-  margin-left: 400px;
+.imagen-comentario{
+  float: left;
+  max-width: 350px;
+}
+
+@media screen and (max-width:700px)  {
+  .nav-wrapper img{
+    max-height: 100px;
+    margin-left: -100px;
+    float: left;
+  }
+  .barbtn {
+    font-size: 0;
+    padding: 0;
+    float: right;
+    margin: 0px !important;
+  }
+  #slogan{
+    font-size: 20px;
+    margin-left: 150px;
+  }
 }
